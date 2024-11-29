@@ -16,7 +16,7 @@ public class Currency extends BaseEntity {
     private Long id;
 
     private String currencyName;
-    private BigDecimal exchangeRate;
+    private BigDecimal exchangeRate;            // 환율
     private String symbol;
 
     public Currency(String currencyName, BigDecimal exchangeRate, String symbol) {
